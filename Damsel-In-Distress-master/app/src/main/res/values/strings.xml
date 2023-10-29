@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Damsel in Distress</string>
+    <string name="panic_release">Panic Release</string>
+    <string name="splash_logo_content_desc">Damsel In Distress Logo</string>
+    <string name="welcome_text">Be safe with Damsel in Distress</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="share_action_intent_chooser">Invite friends …</string>
+    <string name="share_action_text"> Be Safe with Damsel-In-Distress. Download the app now from
+    \nhttps://github.com/DevipriyaSarkar/Damsel-In-Distress/releases </string>
+    <string name="about_title">About</string>
+    <string name="about_neutral_button">Sweet!</string>
+    <string name="about_message">App by Devipriya Sarkar. Say hi to me at devipriyasarkar96@gmail.com. \uD83D\uDE42</string>
+    <string name="panic_btn_text_off">Panic Alarm</string>
+    <string name="panic_btn_text_on">Panic Release</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_phone">Mobile Number</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_register">New here? Register</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="error_invalid_phone">This phone number is invalid</string>
+    <string name="error_invalid_name">This name is invalid</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify_btn_text">Verify</string>
+    <string name="error_incorrect_credentials">Could not verify.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General Settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Unknown</string>
+
+    <string name="pref_title_phone_number">Phone Number</string>
+    <string name="pref_default_phone_number">null</string>
+
+    <!-- SMS Alert Settings -->
+    <string name="pref_header_alert">SMS Alerts</string>
+
+    <string name="pref_title_text_alert">Receive SMS Alerts</string>
+    <string name="pref_summary_text_alert_on">Receive SMS alerts from other Damsels around you in danger</string>
+    <string name="pref_summary_text_alert_off">Not receiving SMS alerts from other Damsels around you in danger.
+        \nPlease consider switching this option on and helping those who need you.</string>
+
+    <string name="title_activity_emergency_contacts">Emergency Contacts</string>
+    <string name="nav_text_contacts">Emergency Contacts</string>
+    <string name="nav_text_settings">Settings</string>
+    <string name="nav_text_log_out">Log Out</string>
+    <string name="nav_text_invite_friends">Invite Friends</string>
+    <string name="nav_text_about">About</string>
+    <string name="request_otp_verification">Please enter the OTP you just received and verify your mobile number to proceed.</string>
+    <string name="phone_verification_error_text">Phone cannot be verified.</string>
+    <string name="remove_contact_dialog_message">Are you sure you want to remove this contact from your emergency contact list?</string>
+    <string name="remove_contact_dialog_title">Remove Contact</string>
+    <string name="remove_contact_dialog_positive_button_text">Yes</string>
+    <string name="remove_contact_dialog_negative_button_text">No</string>
+    <string name="emergency_contact_max_limit_error">Maximum number of emergency contacts is 5.</string>
+    <string name="emergency_contact_exists_error">Selected contact already exists in your list.</string>
+    <string name="emergency_contact_fetch_error">Sorry. Could not get phone data.</string>
+    <string name="sound_playing_message">Playing sound</string>
+    <string name="sound_stopped_message">Stopped sound</string>
+    <string name="otp_verification_success_message">OTP Verified.</string>
+    <string name="otp_verification_error_message">Incorrect OTP. Try again.</string>
+    <string name="phone_exists_error">Phone number already registered.</string>
+    <string name="phone_verification_cancelled">Phone number not verified. Please verify phone number to proceed.</string>
+    <string name="invalid_name_error">Entered user name not valid.</string>
+    <string name="phone_number_dialog_title">Phone Number</string>
+    <string name="invalid_phone_error">Entered user phone not valid.</string>
+    <string name="change_phone_positive_button_text">OK</string>
+    <string name="change_phone_negative_button_text">Cancel</string>
+    <string name="verification_progress_dialog_message">Verifying. Please wait.</string>
+    <string name="phone_incorrect_error">Phone Number Incorrect.</string>
+    <string name="nearby_helper_distress_message_text" formatted="false">Hey %s, %s is in danger and is %s metres around you. Her location is:\nLatitude: %s Longitude: %s\nPlease try and help her.</string>
+    <string name="emergency_contact_distress_message_text" formatted="false">Hey %s, %s is in danger. Her location is:\nLatitude: %s Longitude: %s\nShe has listed you as her emergency contact. Please try and help her.</string>
+    <string name="sending_alerts_progress_dialog_message">Sending Distress Alerts to People Nearby. Please wait.</string>
+    <string name="sms_sent_message" formatted="false">SMS sent to %s</string>
+    <string name="sms_failed_message" formatted="false">SMS to %s failed</string>
+</resources>
